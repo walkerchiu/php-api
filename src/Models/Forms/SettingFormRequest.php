@@ -41,6 +41,7 @@ class SettingFormRequest extends FormRequest
             'serial'      => trans('php-api::setting.serial'),
             'type'        => trans('php-api::setting.type'),
             'app_id'      => trans('php-api::setting.app_id'),
+            'app_token'   => trans('php-api::setting.app_token'),
             'app_key'     => trans('php-api::setting.app_key'),
             'app_secret'  => trans('php-api::setting.app_secret'),
             'function_id' => trans('php-api::setting.function_id'),

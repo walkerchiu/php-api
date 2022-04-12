@@ -12,6 +12,7 @@ return [
     'serial'      => '編號',
     'type'        => '種類',
     'app_id'      => 'APP ID',
+    'app_token'   => 'APP Token',
     'app_key'     => 'APP Key',
     'app_secret'  => 'APP Secret',
     'function_id' => 'Function ID',

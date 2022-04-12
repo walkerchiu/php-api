@@ -73,6 +73,9 @@ class SettingRepository extends Repository
                                             ->unless(empty($data['app_id']), function ($query) use ($data) {
                                                 return $query->where('app_id', $data['app_id']);
                                             })
+                                            ->unless(empty($data['app_token']), function ($query) use ($data) {
+                                                return $query->where('app_token', $data['app_token']);
+                                            })
                                             ->unless(empty($data['app_key']), function ($query) use ($data) {
                                                 return $query->where('app_key', $data['app_key']);
                                             })

@@ -12,6 +12,7 @@ return [
     'serial'      => 'Serial',
     'type'        => 'Type',
     'app_id'      => 'APP ID',
+    'app_token'   => 'APP Token',
     'app_key'     => 'APP Key',
     'app_secret'  => 'APP Secret',
     'function_id' => 'Function ID',

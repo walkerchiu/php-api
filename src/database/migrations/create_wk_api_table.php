@@ -14,6 +14,7 @@ class CreateWkAPITable extends Migration
             $table->string('serial')->nullable();
             $table->string('type')->nullable();
             $table->string('app_id')->nullable();
+            $table->string('app_token')->nullable();
             $table->string('app_key')->nullable();
             $table->string('app_secret')->nullable();
             $table->string('function_id')->nullable();

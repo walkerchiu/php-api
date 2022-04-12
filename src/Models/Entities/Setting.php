@@ -24,7 +24,7 @@ class Setting extends UuidEntity
         $this->fillable = array_merge($this->fillable, [
             'host_type', 'host_id',
             'serial', 'type',
-            'app_id', 'app_key', 'app_secret', 'function_id',
+            'app_id', 'app_token', 'app_key', 'app_secret', 'function_id',
             'hash_key', 'hash_iv',
             'url_notify', 'url_return', 'url_success', 'url_cancel'
         ]);
