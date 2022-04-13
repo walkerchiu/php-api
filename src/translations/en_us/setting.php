@@ -22,6 +22,7 @@ return [
     'url_return'  => 'Return URL',
     'url_success' => 'Success URL',
     'url_cancel'  => 'Cancel URL',
+    'options'     => 'Options',
     'is_enabled'  => 'Is Enabled',
 
     'name'        => 'Name',

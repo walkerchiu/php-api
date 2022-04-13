@@ -24,6 +24,7 @@ class CreateWkAPITable extends Migration
             $table->string('url_return')->nullable();
             $table->string('url_success')->nullable();
             $table->string('url_cancel')->nullable();
+            $table->json('options')->nullable();
             $table->boolean('is_enabled')->default(0);
 
             $table->timestampsTz();

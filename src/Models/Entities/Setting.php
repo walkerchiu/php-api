@@ -26,7 +26,8 @@ class Setting extends UuidEntity
             'serial', 'type',
             'app_id', 'app_token', 'app_key', 'app_secret', 'function_id',
             'hash_key', 'hash_iv',
-            'url_notify', 'url_return', 'url_success', 'url_cancel'
+            'url_notify', 'url_return', 'url_success', 'url_cancel',
+            'options',
         ]);
 
         parent::__construct($attributes);

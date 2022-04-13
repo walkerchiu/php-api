@@ -51,6 +51,7 @@ class SettingFormRequest extends FormRequest
             'url_return'  => trans('php-api::setting.url_return'),
             'url_success' => trans('php-api::setting.url_success'),
             'url_cancel'  => trans('php-api::setting.url_cancel'),
+            'options'     => trans('php-api::setting.options'),
             'is_enabled'  => trans('php-api::setting.is_enabled'),
 
             'name'        => trans('php-api::setting.name'),
@@ -81,6 +82,7 @@ class SettingFormRequest extends FormRequest
             'url_return'  => 'url',
             'url_success' => 'url',
             'url_cancel'  => 'url',
+            'options'     => 'nullable|json',
             'is_enabled'  => 'boolean',
 
             'name'        => 'required|string|max:255',
@@ -126,6 +128,7 @@ class SettingFormRequest extends FormRequest
             'url_return.url'          => trans('php-core::validation.url'),
             'url_success.url'         => trans('php-core::validation.url'),
             'url_cancel.url'          => trans('php-core::validation.url'),
+            'options.json'            => trans('php-core::validation.json'),
             'is_enabled.boolean'      => trans('php-core::validation.boolean'),
 
             'name.required' => trans('php-core::validation.required'),

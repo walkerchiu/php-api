@@ -162,6 +162,7 @@ class SettingRepository extends Repository
                   'name'        => $instance->findLang($code, 'name'),
                   'description' => $instance->findLang($code, 'description'),
                   'remarks'     => $instance->findLang($code, 'remarks'),
+                  'options'     => $instance->options,
                   'is_enabled'  => $instance->is_enabled,
                   'updated_at'  => $instance->updated_at
             ];
@@ -185,6 +186,7 @@ class SettingRepository extends Repository
                       'name'        => $instance->findLang($language, 'name'),
                       'description' => $instance->findLang($language, 'description'),
                       'remarks'     => $instance->findLang($language, 'remarks'),
+                      'options'     => $instance->options,
                       'is_enabled'  => $instance->is_enabled,
                       'updated_at'  => $instance->updated_at
                 ];

@@ -22,6 +22,7 @@ return [
     'url_return'  => 'Return URL',
     'url_success' => 'Success URL',
     'url_cancel'  => 'Cancel URL',
+    'options'     => '選項',
     'is_enabled'  => '是否啟用',
 
     'name'        => '名稱',
